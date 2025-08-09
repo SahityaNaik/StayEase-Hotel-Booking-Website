@@ -23,7 +23,7 @@ const clerkWebhooks = async (req, res)=>{
         // Switch Cases for different Events
         switch (type) {
             case "user.created":{
-                const userData ={
+                const userData = {
                 _id: data.id,
                 email: data.email.addresses[0].email_address,
                 username: data.first_name + " " + data.last_name,
@@ -61,4 +61,4 @@ const clerkWebhooks = async (req, res)=>{
     }
 }
 
-export default clerkWebhooks;
+export default clerkWebhooks; 
