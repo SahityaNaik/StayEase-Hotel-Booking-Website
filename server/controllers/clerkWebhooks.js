@@ -25,27 +25,31 @@ const clerkWebhooks = async (req, res)=>{
             case "user.created":{
                 const userData = {
                 _id: data.id,
-                email: data.email.addresses[0].email_address,
+                email: data.email_addresses[0].email_address,
                 username: data.first_name + " " + data.last_name,
                 image: data.image_url,
+                recentSearchedCities: [],
             }
                 await User.create(userData);
+                console.log("✅ New user saved to DB:", userData.email);
                 break;
             }
 
             case "user.updated":{
                 const userData ={
                 _id: data.id,
-                email: data.email.addresses[0].email_address,
+                email: data.email_addresses[0].email_address,
                 username: data.first_name + " " + data.last_name,
                 image: data.image_url,
             }
                 await User.findByIdAndUpdate(data.id, userData);
+                console.log("ℹ️ User updated in DB:", userData.email);
                 break;
             }
 
             case "user.deleted":{
                 await User.findByIdAndDelete(data.id);
+                console.log("🗑️ User deleted from DB:", data.id);
                 break;
             }
                 
