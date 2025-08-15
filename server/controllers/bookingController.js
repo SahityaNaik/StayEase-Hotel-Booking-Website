@@ -59,7 +59,7 @@ export const createBooking = async (req, res) => {
         const checkIn = new Date(checkInDate)
         const checkOut = new Date(checkOutDate)
         const timeDiff = checkOut.getTime() - checkIn.getTime();
-        const nights = Math.ceil(time / (1000 * 3600 * 24));
+        const nights = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
         totalPrice *= nights;
         const booking = await Booking.create({
