@@ -72,7 +72,7 @@ const MyBookings = () => {
                             <img src={assets.guestsIcon} alt="guests-icon"/>
                             <span>Guests: {bookings.guests}</span>
                         </div>
-                        <p className='text-base'>Total: ${bookings.totalPrice}</p>
+                        <p className='text-base'>Total: ₹{bookings.totalPrice}</p>
                     </div>
                 </div>
                 {/* Date & Timings */}
