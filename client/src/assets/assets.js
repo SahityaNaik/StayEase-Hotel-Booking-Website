@@ -8,7 +8,6 @@ import arrowIcon from './arrowIcon.svg'
 import starIconOutlined from './starIconOutlined.svg'
 import instagramIcon from './instagramIcon.svg'
 import facebookIcon from './facebookIcon.svg'
-import twitterIcon from './twitterIcon.svg'
 import linkendinIcon from './linkendinIcon.svg'
 import freeWifiIcon from './freeWifiIcon.svg'
 import freeBreakfastIcon from './freeBreakfastIcon.svg'
@@ -51,7 +50,6 @@ export const assets = {
     starIconOutlined,
     instagramIcon,
     facebookIcon,
-    twitterIcon,
     linkendinIcon,
     freeWifiIcon,
     freeBreakfastIcon,

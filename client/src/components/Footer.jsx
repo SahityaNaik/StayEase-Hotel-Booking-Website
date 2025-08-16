@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className='flex items-center gap-3 mt-4'>
                         <img src={assets.instagramIcon} alt="instagram-icon" className='w-6'/>
                         <img src={assets.facebookIcon} alt="facebook-icon" className='w-6'/>
-                        <img src={assets.twitterIcon} alt="twitter-icon" className='w-6'/>
+                        <img src={assets.xIcon} alt="twitter-icon" className='w-4.5'/>
                         <img src={assets.linkendinIcon} alt="linkedin-icon" className='w-6'/>
                     </div>
                 </div>
