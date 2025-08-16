@@ -79,7 +79,7 @@ const AddRoom = () => {
 
   return (
      <form onSubmit={onSubmitHandler}>
-        <Title align='left' font='outfit' title='Add Room' subTitle='Fill in the details carefully and accurate room details, pricing, and amenities, to enhance the user booking experience.'/>
+        <Title align='left' font='outfit' title='Add Room' subTitle='Add accurate details, pricing, and amenities to showcase your room and attract the right guests for a seamless booking experience.'/>
         {/* Upload Area For Images */}
         <p className='text-gray-800 mt-10'>Images</p>
         <div className='grid grid-cols-2 sm:flex gap-4 my-2 flex-wrap'>

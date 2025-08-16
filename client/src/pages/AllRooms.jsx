@@ -129,7 +129,7 @@ const AllRooms = () => {
       <div>
         <div className='flex flex-col items-start text-left'>
             <h1 className='font-playfair text-4xl md:text-[40px]'>Hotel Rooms</h1>
-            <p className='text-sm md:text-base text-gray-500/90 mt-2 max-w-174'>Take advantage of our limited-time offers and special packages to enhance your stay and create unforgettable memories.</p>
+            <p className='text-sm md:text-base text-gray-500/90 mt-2 max-w-174'>Choose from a variety of thoughtfully designed rooms, each offering comfort, elegance, and modern amenities for every kind of traveler.</p>
         </div>
 
         {filteredRooms.map((room)=>(

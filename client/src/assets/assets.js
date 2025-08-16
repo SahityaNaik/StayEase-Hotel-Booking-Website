@@ -37,6 +37,7 @@ import listIcon from "./listIcon.svg";
 import uploadArea from "./uploadArea.svg";
 import totalBookingIcon from "./totalBookingIcon.svg";
 import totalRevenueIcon from "./totalRevenueIcon.svg";
+import xIcon from "./x_icon.svg"
 
 
 export const assets = {
@@ -72,6 +73,7 @@ export const assets = {
     uploadArea,
     totalBookingIcon,
     totalRevenueIcon,
+    xIcon,
 }
 
 export const cities = [
@@ -91,9 +93,9 @@ export const exclusiveOffers = [
 
 // Testimonials Dummy Data
 export const testimonials = [
-    { id: 1, name: "Emma Rodriguez", address: "Barcelona, Spain", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: "I've used many booking platforms before, but none compare to the personalized experience and attention to detail that QuickStay provides." },
-    { id: 2, name: "Liam Johnson", address: "New York, USA", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: "QuickStay exceeded my expectations. The booking process was seamless, and the hotels were absolutely top-notch. Highly recommended!" },
-    { id: 3, name: "Sophia Lee", address: "Seoul, South Korea", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: "Amazing service! I always find the best luxury accommodations through QuickStay. Their recommendations never disappoint!" }
+    { id: 1, name: "Aarav Mehta", address: "Mumbai, India", image: "https://images.unsplash.com/photo-1599760253047-37df46f031d7?q=80&w=200", rating: 5, review: "StayEase made my Goa trip stress-free. The booking was instant, and the stay was just as described. Truly seamless!" },
+    { id: 2, name: "Priya Sharma", address: "Bengaluru, India", image: "https://images.unsplash.com/photo-1680506735784-4dd412432a4c?q=80&w=200", rating: 4, review: "I loved how easy it was to compare rooms and book. The Mountain View Retreat was beautiful and perfectly managed." },
+    { id: 3, name: "Rohit Verma", address: "Delhi, India", image: "https://images.unsplash.com/photo-1706553664216-0e0e6dedec8e?q=80&w=200", rating: 5, review: "StayEase is my go-to for business and family trips. Reliable, affordable, and always smooth booking experience." }
 ];
 
 // Facility Icon
