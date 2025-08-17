@@ -22,7 +22,7 @@ Users can explore and book rooms seamlessly, while owners can manage listings, a
 
 ### 🏨 For Owners
 - Owner dashboard with booking stats  
-- Add & manage room listings (with Cloudinary image upload)  
+- Add & manage room listings
 - Toggle room availability  
 - View and manage bookings for their hotels  
 
@@ -94,21 +94,3 @@ Run client:
 Run server:  
     cd ../server  
     npm run dev  
-
----
-
-## 📸 Screenshots  
-
-### Home Page  
-![Home Page](https://dummyimage.com/1200x600/eee/aaa&text=Home+Page+Preview)  
-
-### Room Details  
-![Room Details](https://dummyimage.com/1200x600/eee/aaa&text=Room+Details+Preview)  
-
-### Owner Dashboard  
-![Dashboard](https://dummyimage.com/1200x600/eee/aaa&text=Owner+Dashboard+Preview)  
-
-*(Replace with actual screenshots of your app!)*  
-
-
-  
