@@ -15,7 +15,7 @@ connectDB()
 connectCloudinary()
 
 const app = express()
-app.use(cors()) // Enables Cross-Origin Resource Sharing
+app.use(cors())  // Enables Cross-Origin Resource Sharing
 
 // API to listen to Stripe Webhooks
 app.post('/api/stripe', express.raw({type: "application/json"}), stripeWebhooks);
