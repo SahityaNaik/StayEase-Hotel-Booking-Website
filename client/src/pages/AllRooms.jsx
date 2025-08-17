@@ -170,7 +170,7 @@ const AllRooms = () => {
             <div className='text-xs cursor-pointer'>
                 <span onClick={()=> setOpenFilters(!openFilters)} className='lg:hidden'>
                     {openFilters ? 'HIDE' : 'SHOW'}</span>
-                <span className='hidden lg:block'>CLEAR</span>
+                <span className='hidden lg:block' onClick={clearFilters}>CLEAR</span>
             </div>
         </div>
 
@@ -192,6 +192,16 @@ const AllRooms = () => {
                 {sortOptions.map((option, index)=>(
                      <RadioButton key={index} label={option} selected={selectedSort === option} onChange={()=> handleSortChange(option)}/>
                 ))}
+            </div>
+
+            {/* Clear button for Small Screeens */}
+                <div className="px-5 pb-5 lg:hidden">
+                <button 
+                    onClick={clearFilters} 
+                    className="w-full text-sm text-gray-800"
+                >
+                    CLEAR
+                </button>
             </div>
 
         </div>
