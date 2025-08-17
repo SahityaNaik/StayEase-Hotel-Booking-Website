@@ -1,6 +1,6 @@
 # StayEase 🏨 – Hotel Booking Website  
 
-StayEase is a **full-stack hotel booking platform** that connects **travelers** with **hotel owners**.  
+StayEase is a responsive **full-stack hotel booking platform** that connects **travelers** with **hotel owners**.  
 Users can explore and book rooms seamlessly, while owners can manage listings, availability, and bookings with ease.  
 
 ---
@@ -8,6 +8,23 @@ Users can explore and book rooms seamlessly, while owners can manage listings, a
 ## 🌐 Link  
 
 🔗 **Live Demo:** [stayease-hotel-booking.vercel.app](https://stayease-hotel-booking.vercel.app/)  
+
+---
+
+## 🛠 Tech Stack  
+
+**Frontend (Client):**  
+- React (Vite) – Fast and modern frontend  
+- Clerk – Authentication & role management  
+- Axios + Context API – Data fetching & state management  
+- Tailwind CSS – Modern styling  
+
+**Backend (Server):**  
+- Node.js + Express – RESTful API server  
+- MongoDB + Mongoose – Database & models  
+- Stripe – Payments & webhooks  
+- Cloudinary – Image storage  
+- Nodemailer – Email notifications  
 
 ---
 
@@ -33,22 +50,6 @@ Users can explore and book rooms seamlessly, while owners can manage listings, a
 
 ---
 
-## 🛠 Tech Stack  
-
-**Frontend (Client):**  
-- React (Vite) – Fast and modern frontend  
-- Clerk – Authentication & role management  
-- Axios + Context API – Data fetching & state management  
-- Tailwind CSS – Modern styling  
-
-**Backend (Server):**  
-- Node.js + Express – RESTful API server  
-- MongoDB + Mongoose – Database & models  
-- Stripe – Payments & webhooks  
-- Cloudinary – Image storage  
-- Nodemailer – Email notifications  
-
----
 
 ## 🚀 Getting Started  
 
