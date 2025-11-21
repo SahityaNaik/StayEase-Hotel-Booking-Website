@@ -13,9 +13,17 @@ Users can **discover, compare, and book rooms** with ease, while owners can **ma
 
 ## 📸 Screenshots
 
-- **Landing Page:** ![Landing Page](./client/screenshots/landing-page.png)
-- **Room Details:** ![Room Details](./client/screenshots/room-details.png)
-- **My Bookings:** ![My Bookings](./client/screenshots/my-bookings.png)
+- **Landing Page:**
+
+  ![Landing Page](./client/screenshots/landing-page.png)
+
+- **Room Details:**
+
+  ![Room Details](./client/screenshots/room-details.png)
+
+- **My Bookings:**
+
+  ![My Bookings](./client/screenshots/my-bookings.png)
 
 ---
 
