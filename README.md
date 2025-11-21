@@ -13,9 +13,9 @@ Users can **discover, compare, and book rooms** with ease, while owners can **ma
 
 ## 📸 Screenshots
 
-- **Landing Page:** `![Landing Page](./client/screenshots/landing-page.png)`
-- **Room Details:** `![Room Details](./client/screenshots/room-details.png)`
-- **My Bookings:** `![My Bookings](./client/screenshots/my-bookings.png)`
+- **Landing Page:** ![Landing Page](./client/screenshots/landing-page.png)
+- **Room Details:** ![Room Details](./client/screenshots/room-details.png)
+- **My Bookings:** ![My Bookings](./client/screenshots/my-bookings.png)
 
 ---
 
@@ -50,6 +50,7 @@ Users can **discover, compare, and book rooms** with ease, while owners can **ma
 
 High-level structure of the project:
 
+```text
 hotel-booking/
 ├── client/                 # Frontend (React + Vite)
 │   ├── src/
@@ -74,7 +75,8 @@ hotel-booking/
 │   └── vercel.json         # Backend deployment config
 │
 ├── README.md               # Project documentation
-└── (other config files)  
+└── (other config files)
+```
 
 ---
 
