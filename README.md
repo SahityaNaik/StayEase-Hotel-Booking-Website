@@ -1,97 +1,130 @@
-# StayEase 🏨 – Hotel Booking Website  
+## StayEase 🏨 – Hotel Booking Platform
 
 StayEase is a responsive **full-stack hotel booking platform** that connects **travelers** with **hotel owners**.  
-Users can explore and book rooms seamlessly, while owners can manage listings, availability, and bookings with ease.  
+Users can **discover, compare, and book rooms** with ease, while owners can **manage listings, availability, and bookings** from a dedicated dashboard.
 
 ---
 
-## 🌐 Link  
+## 🌐 Live Demo
 
-🔗 **Live Demo:** [stayease-hotel-booking.vercel.app](https://stayease-hotel-booking.vercel.app/)  
-
----
-
-## 🛠 Tech Stack  
-
-**Frontend (Client):**  
-- React (Vite) – Fast and modern frontend  
-- Clerk – Authentication & role management  
-- Axios + Context API – Data fetching & state management  
-- Tailwind CSS – Modern styling  
-
-**Backend (Server):**  
-- Node.js + Express – RESTful API server  
-- MongoDB + Mongoose – Database & models  
-- Stripe – Payments & webhooks  
-- Cloudinary – Image storage  
-- Nodemailer – Email notifications  
+- **Website:** [stayease-hotel-booking.vercel.app](https://stayease-hotel-booking.vercel.app/)
 
 ---
 
-## ✨ Features  
+## 🧩 Overview
 
-### 👤 For Users
-- Browse hotels & rooms with filtering and sorting  
-- View detailed room information with images and ratings  
-- Secure booking flow with Stripe integration  
-- Booking history & management in "My Bookings"  
-- Instant booking confirmation via email  
-
-### 🏨 For Owners
-- Owner dashboard with booking stats  
-- Add & manage room listings
-- Toggle room availability  
-- View and manage bookings for their hotels  
-
-### 🔐 Authentication
-- Powered by **Clerk** for sign-in/sign-up  
-- Role-based access: Users and Owners  
-- Secure API with JWT validation in backend  
+- **Type:** Full-stack hotel booking web app  
+- **Users:** Travelers (Guests) & Hotel Owners  
+- **Key Capabilities:** Room browsing, filtering, secure payments, email notifications, owner dashboard
 
 ---
 
+## 🛠 Tech Stack
 
-## 🚀 Getting Started  
+### 💻 Frontend
 
-### Prerequisites
-- Node.js v16+  
-- MongoDB instance  
-- Cloudinary account  
-- Clerk project (for auth)  
-- Stripe account (for payments)  
+- **React (Vite)** – Fast, modern frontend tooling  
+- **Clerk** – Authentication & role management  
+- **Axios + Context API** – Data fetching & global state management  
+- **Tailwind CSS** – Utility-first, responsive UI styling  
 
-### Installation  
+### 🖥 Backend
 
-Clone repository:  
-    git clone https://github.com/SahityaNaik/StayEase-Hotel-Booking-Website.git  
+- **Node.js + Express** – RESTful API server  
+- **MongoDB + Mongoose** – NoSQL database & data models  
+- **Stripe** – Secure payments & webhook handling  
+- **Cloudinary** – Image upload & storage  
+- **Nodemailer** – Email notifications (booking confirmations, etc.)  
 
-Install client dependencies:  
-    cd client  
-    npm install  
+---
 
-Install server dependencies:  
-    cd ../server  
-    npm install  
+## ✨ Core Features
 
-### Environment Variables  
+### 👤 User Experience (Travelers)
 
-Create a `.env` file in the **server** folder with:  
+- **Browse & search hotels/rooms** with filtering and sorting  
+- **Detailed room pages** with images, descriptions, and ratings  
+- **Secure checkout** via **Stripe** integration  
+- **Bookings dashboard** under **"My Bookings"** to track and manage reservations  
+- **Instant booking confirmation emails**
 
-    MONGO_URI=your_mongodb_uri  
-    CLERK_SECRET_KEY=your_clerk_secret  
-    STRIPE_SECRET_KEY=your_stripe_secret  
-    CLOUDINARY_CLOUD_NAME=your_cloudinary_name  
-    CLOUDINARY_API_KEY=your_cloudinary_key  
-    CLOUDINARY_API_SECRET=your_cloudinary_secret  
-    EMAIL_USER=your_email  
-    EMAIL_PASS=your_email_password  
+### 🏨 Owner Experience (Hotel Owners)
 
-### Running the Project  
+- **Owner dashboard** with booking stats and quick insights  
+- **Create & manage room listings** (details, images, pricing, etc.)  
+- **Toggle room availability** in real-time  
+- **View and manage bookings** for their properties  
 
-Run client:  
-    cd client  
-    npm run dev  
+### 🔐 Authentication & Security
 
-Run server:  
-    cd ../server  
-    npm run dev  
+- **Clerk-powered auth** for sign-in/sign-up  
+- **Role-based access control:** `User` vs `Owner`  
+- **Protected routes & secure APIs** with **JWT validation** on the backend  
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+Make sure you have:
+
+- **Node.js** v16+  
+- **MongoDB** instance (local or cloud, e.g. MongoDB Atlas)  
+- **Cloudinary** account (for image uploads)  
+- **Clerk** project (for authentication)  
+- **Stripe** account (for payments)
+
+---
+
+## 📦 Installation
+
+### 1. Clone the Repository
+
+    git clone https://github.com/SahityaNaik/StayEase-Hotel-Booking-Website.git
+    cd StayEase-Hotel-Booking-Website
+
+### 2. Install Client Dependencies
+
+    cd client
+    npm install
+
+### 3. Install Server Dependencies
+
+    cd ../server
+    npm install
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file inside the **`server`** folder and add:
+
+    MONGO_URI=your_mongodb_uri
+    CLERK_SECRET_KEY=your_clerk_secret
+    STRIPE_SECRET_KEY=your_stripe_secret
+
+    CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+    CLOUDINARY_API_KEY=your_cloudinary_key
+    CLOUDINARY_API_SECRET=your_cloudinary_secret
+
+    EMAIL_USER=your_email
+    EMAIL_PASS=your_email_password
+
+---
+
+## 🏃 Running the Project
+
+### Run the Client
+
+    cd client
+    npm run dev
+
+### Run the Server
+
+    cd ../server
+    npm run dev
+
+The client will typically run on something like **`http://localhost:5173`** and the server on **`http://localhost:5000`** (depending on your configuration).
+
+---
