@@ -11,6 +11,14 @@ Users can **discover, compare, and book rooms** with ease, while owners can **ma
 
 ---
 
+## 📸 Screenshots
+
+- **Landing Page:** `![Landing Page](./client/screenshots/landing-page.png)`
+- **Room Details:** `![Room Details](./client/screenshots/room-details.png)`
+- **My Bookings:** `![My Bookings](./client/screenshots/my-bookings.png)`
+
+---
+
 ## 🧩 Overview
 
 - **Type:** Full-stack hotel booking web app  
@@ -35,6 +43,38 @@ Users can **discover, compare, and book rooms** with ease, while owners can **ma
 - **Stripe** – Secure payments & webhook handling  
 - **Cloudinary** – Image upload & storage  
 - **Nodemailer** – Email notifications (booking confirmations, etc.)  
+
+---
+
+## 🗂 Project Structure
+
+High-level structure of the project:
+
+hotel-booking/
+├── client/                 # Frontend (React + Vite)
+│   ├── src/
+│   │   ├── assets/         # Images, icons, and static assets
+│   │   ├── components/     # Reusable UI components
+│   │   │   ├── hotelOwner/ # Components specific to hotel owner dashboard
+│   │   ├── context/        # Global state (AppContext)
+│   │   ├── pages/          # Application pages (Home, RoomDetails, etc.)
+│   │   │   └── hotelOwner/ # Owner pages (Dashboard, AddRoom, ListRoom)
+│   │   ├── App.jsx         # Root app component
+│   │   └── main.jsx        # React entry point
+│   ├── index.html
+│   └── vite.config.js
+│
+├── server/                 # Backend (Node.js + Express)
+│   ├── config/             # DB, Cloudinary, Nodemailer config
+│   ├── controllers/        # Route controllers (booking, hotel, room, user, webhooks)
+│   ├── middleware/         # Auth, upload middleware
+│   ├── models/             # Mongoose models (Booking, Hotel, Room, User)
+│   ├── routes/             # API routes
+│   ├── server.js           # Express app entry point
+│   └── vercel.json         # Backend deployment config
+│
+├── README.md               # Project documentation
+└── (other config files)  
 
 ---
 
